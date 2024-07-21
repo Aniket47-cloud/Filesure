@@ -10,7 +10,7 @@ export default function Team() {
             </Head>
 
 
-        // Section wrapper with background color, padding, and minimum height
+    {/*Section wrapper with background color, padding, and minimum height*/}
         <section className="min-h-[700px] max-w-[100vw] flex items-center bg-[#F2F4F7] py-8 md:py-16">
             {/* Container to center content and handle layout for different screen sizes */}
             <div className="w-11/12 mx-auto flex flex-col lg:flex-row justify-between mt-2 gap-8 lg:gap-16">
