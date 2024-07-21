@@ -22,7 +22,7 @@ export default function Discuss() {
                         {/* Full Name input */}
                         <div className="flex flex-col space-y-1 pb-1 border-b-2">
                             <label className="text-[11px] sm:text-[13px] font-medium text-gray-500" htmlFor="fullName">Full Name</label>
-                            <input id="fullName" type="text" className="text-xs sm:text-base w-full placeholder-black" placeholder="My Name" />
+                            <input id="fullName" type="text" className="text-xs sm:text-base outline-none w-full placeholder-black" placeholder="My Name" />
                         </div>
 
                         {/* Phone Number input with India flag */}
@@ -30,20 +30,20 @@ export default function Discuss() {
                             <label className="text-[11px] sm:text-[13px] font-medium text-gray-500" htmlFor="phoneNumber">Phone Number</label>
                             <div className="text-xs sm:text-base flex items-center gap-1 sm:gap-2">
                                 <IN className="w-4 h-3 sm:w-6 sm:h-4 flex-shrink-0" />
-                                <input id="phoneNumber" type="tel" className="flex-grow w-full placeholder-black" placeholder="+91 0000000000" />
+                                <input id="phoneNumber" type="tel" className="flex-grow w-full outline-none placeholder-black" placeholder="+91 0000000000" />
                             </div>
                         </div>
 
                         {/* Business Name input */}
                         <div className="flex flex-col space-y-1 pb-1 border-b-2">
                             <label className="text-[11px] sm:text-[13px] font-medium text-gray-500" htmlFor="businessName">Business Name</label>
-                            <input id="businessName" type="text" className="text-xs sm:text-base w-full placeholder-black" placeholder="ABC Technologies PVT LTD" />
+                            <input id="businessName" type="text" className="text-xs sm:text-base w-full outline-none placeholder-black" placeholder="ABC Technologies PVT LTD" />
                         </div>
 
                         {/* Business Mail input */}
                         <div className="flex flex-col space-y-1 pb-1 border-b-2">
                             <label className="text-[11px] sm:text-[13px] font-medium text-gray-500" htmlFor="businessMail">Business Mail</label>
-                            <input id="businessMail" type="email" className="text-xs sm:text-base w-full placeholder-black" placeholder="demoaccount@gmail.com" />
+                            <input id="businessMail" type="email" className="text-xs sm:text-base w-full outline-none placeholder-black" placeholder="demoaccount@gmail.com" />
                         </div>
                     </form>
 
